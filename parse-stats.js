@@ -97,38 +97,78 @@ class CSharpGenerator {
 
 	stringify(data) {
 
-		let achievmentDefs = this.generateAchievements(data);
-		let statDefs = this.generateStats(data);
 		let code = `
 using System.Collections;
 
 namespace BS {
 	public class StatsAndAchievementsDefinitions {
-			${achievmentDefs}
-			${statDefs}
+
+		protected class Achievement_t {
+			public Achievement m_eAchievementID;
+			public string m_strName;
+			public string m_strDescription;
+			public bool m_bAchieved;
+
+			/// <summary>
+			/// Creates an Achievement. You must also mirror the data provided here in https://partner.steamgames.com/apps/achievements/yourappid
+			/// </summary>
+			/// <param name="achievement">The "API Name Progress Stat" used to uniquely identify the achievement.</param>
+			/// <param name="name">The "Display Name" that will be shown to players in game and on the Steam Community.</param>
+			/// <param name="desc">The "Description" that will be shown to players in game and on the Steam Community.</param>
+			public Achievement_t(Achievement achievementID, string name, string desc) {
+				m_eAchievementID = achievementID;
+				m_strName = name;
+				m_strDescription = desc;
+				m_bAchieved = false;
+			}
+		}
+		${this.generateAchievementsEnum(data)}
+		${this.generateAchievementsDefinitions(data)}
+		${this.generateStatsEnum(data)}
 	}
 }
-		`;
+`;
 		return code;
 	}
 
-	generateAchievements(data) {
+	generateAchievementsEnum(data) {
 
-		let enumDef = `\n\tprivate enum Achievement: int {\n`;
+		let enumDef = `
+		protected enum Achievement: int {`;
 		_.forEach(data.achievements, function (ach) {
-			enumDef += `\t\t${ach.id},\n`;
+			enumDef += `
+			${ach.id},`;
 		});
-		enumDef += '\t};\n\n';
-
+		enumDef += `
+		};
+`;
 		return enumDef;
 	}
 
-	generateStats(data) {
-		let enumDef = `\n\tprivate enum Stats: int {\n`;
-		_.forEach(data.stats, function (stat) {
-			enumDef += `\t\t${stat.id},\n`;
+	generateAchievementsDefinitions(data) {
+	
+		let def = `
+		protected Achievement_t[] m_Achievements = new Achievement_t[] {`;
+		_.forEach(data.achievements, function (ach) {
+			def += `
+			new Achievement_t(Achievements.${ach.id}, "${ach.name}", "${ach.display}"),`;
 		});
-		enumDef += '\t};\n\n';
+		def += `
+		};
+`;
+		return def;
+	}
+	
+	generateStatsEnum(data) {
+		let enumDef = `
+		protected enum Stat: int {`;
+		_.forEach(data.stats, function (stat) {
+			enumDef += `
+			${stat.id},`;
+		});
+		enumDef += `
+		};
+`;
 		return enumDef;
 	}
 
@@ -158,7 +198,7 @@ else {
 	// generate the output	
 	let outputText;
 	let generator = (program.csharp ? new CSharpGenerator : JSON);
-	outputText = generator.stringify(data);
+	outputText = generator.stringify(data, null, 4);
 
 	// output the parsed data	
 	console.log(outputText);
