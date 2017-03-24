@@ -2,7 +2,7 @@
   "name": "parse-stats",
   "version": "1.0.0",
   "description": "Parse Raw Steam Stats and Achievements for C#",
-  "main": "index.js",
+  "main": "parse-stats.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

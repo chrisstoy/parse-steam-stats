@@ -1,0 +1,331 @@
+{
+	"achievements": [
+		{
+			"id": "ach_Species_In_Danger",
+			"name": "Species In Danger",
+			"display": "50 sloth kills"
+		},
+		{
+			"id": "ach_Sloth_Reaper",
+			"name": "Sloth Reaper",
+			"display": "666 sloth kills"
+		},
+		{
+			"id": "ach_Pizza_War_Never_Changes",
+			"name": "Pizza War Never Changes",
+			"display": "2025 sloth kills"
+		},
+		{
+			"id": "ach_It's_SO_Over",
+			"name": "It's SO Over!",
+			"display": "9001 sloth kills"
+		},
+		{
+			"id": "ach_Harpy_Reaper",
+			"name": "Harpy Reaper",
+			"display": "Kill 666 Demonic Harpy Eagles in Hell"
+		},
+		{
+			"id": "ach_Clawed_The_Surface",
+			"name": "Clawed the Surface",
+			"display": "Play 15 complete matches (Any Game Mode)"
+		},
+		{
+			"id": "ach_In_The_Swing",
+			"name": "In the Swing",
+			"display": "Play 150 complete matches (Any Game Mode)"
+		},
+		{
+			"id": "ach_Slow_Life",
+			"name": "Slow Life",
+			"display": "Play 300 complete matches (Any Game Mode)"
+		},
+		{
+			"id": "ach_Pizza_Party",
+			"name": "Pizza Party",
+			"display": "Play 20 complete matches of Slice Hunt"
+		},
+		{
+			"id": "ach_Casual_Casualties",
+			"name": "Casual Casualties",
+			"display": "Play 20 complete matches of Sloth Hunt"
+		},
+		{
+			"id": "ach_Survival_Of_TheSlowest",
+			"name": "Survival of the Slowest",
+			"display": "Play 20 complete matches of Last Sloth Standing"
+		},
+		{
+			"id": "ach_Greedy_Claws",
+			"name": "Greedy Claws",
+			"display": "Play 20 complete matches of Golden Slice"
+		},
+		{
+			"id": "ach_The_Nuclear_Option",
+			"name": "The Nuclear Option",
+			"display": "Play 20 complete matches with the Nuke on"
+		},
+		{
+			"id": "ach_Friendly_Sloths",
+			"name": "Friendly Sloths",
+			"display": "Play 20 complete team matches"
+		},
+		{
+			"id": "ach_Contender",
+			"name": "Contender",
+			"display": "Win 10 online matches"
+		},
+		{
+			"id": "ach_Champion",
+			"name": "Champion",
+			"display": "Win 30 online matches"
+		},
+		{
+			"id": "ach_Connected",
+			"name": "Connected",
+			"display": "Play 30 complete online matches"
+		},
+		{
+			"id": "ach_Networker",
+			"name": "Networker",
+			"display": "Play 100 complete online matches"
+		},
+		{
+			"id": "ach_World_Tour",
+			"name": "World Tour",
+			"display": "Played a complete match on each map"
+		},
+		{
+			"id": "ach_Hat_Collector",
+			"name": "Hat Collector",
+			"display": "Collect 20 hats"
+		},
+		{
+			"id": "ach_Hat_Obsession",
+			"name": "Hat Obsession",
+			"display": "Collect 200 hats"
+		},
+		{
+			"id": "ach_Hat_Lunacy",
+			"name": "Hat Lunacy",
+			"display": "Collect 400 hats"
+		},
+		{
+			"id": "ach_Ultimate_Hat_Dominance",
+			"name": "Ultimate Hat Dominance",
+			"display": "Collect 800 hats"
+		},
+		{
+			"id": "ach_On_Fire",
+			"name": "On Fire!",
+			"display": "Get a 6 kill streak"
+		},
+		{
+			"id": "ach_Stackin_Crowns",
+			"name": "Stackin' Crowns!",
+			"display": "Get a 10 kill streak"
+		},
+		{
+			"id": "ach_Sweet_Sixteen",
+			"name": "Sweet Sixteen!",
+			"display": "Get a 16 kill streak"
+		},
+		{
+			"id": "ach_Quarter_Master",
+			"name": "Quarter-Master",
+			"display": "Get a 25 kill streak"
+		},
+		{
+			"id": "ach_Wastelands",
+			"name": "Wastelands",
+			"display": "Play with the Nuke on in the Desert"
+		},
+		{
+			"id": "ach_Alive",
+			"name": "Alive",
+			"display": "Play Last Sloth Standing in Cold Wastes"
+		},
+		{
+			"id": "ach_Sacrificial_Sloths",
+			"name": "Sacrificial Sloths",
+			"display": "Play Timed Sloth Hunt in Hell"
+		},
+		{
+			"id": "ach_A_Kings_Ransom",
+			"name": "A King's Ransom",
+			"display": "Play Golden Slice in the Highlands Castle"
+		},
+		{
+			"id": "ach_Competitive_Work_Environment",
+			"name": "Competitve Work Environment",
+			"display": "Play Slice Hunt in the Factory"
+		},
+		{
+			"id": "ach_Welcome_Programs",
+			"name": "Welcome, Programs",
+			"display": "Play Team Golden Slice in Rad World"
+		},
+		{
+			"id": "ach_Hungry_Hungry_Slothos",
+			"name": "Hungry Hungry Slothos",
+			"display": "Play Team Slice Hunt in the Land o' Cakes"
+		},
+		{
+			"id": "ach_Pro_Rules_Sloth_Law",
+			"name": "Pro Rules/Sloth Law",
+			"display": "Play 5 Last Sloth Standing matches set to only 1 life against human players"
+		},
+		{
+			"id": "ach_Sloth_Savior",
+			"name": "Sloth Savior",
+			"display": "Reset the Nuke with less than one second left"
+		},
+		{
+			"id": "ach_Size_Matters",
+			"name": "Size Matters",
+			"display": "Get a multiple kills with one BFSG shot"
+		},
+		{
+			"id": "ach_Two_Sloths_One_Beam",
+			"name": "Two Sloths, One Beam",
+			"display": "Kill two sloths on one shot of the laser"
+		},
+		{
+			"id": "ach_Good_Communicator",
+			"name": "\\\"Good Communicator\\",
+			"display": "Kill a teammate with the rocket"
+		},
+		{
+			"id": "ach_Death_Volley",
+			"name": "Death Volley",
+			"display": "Knock a Rocket back"
+		},
+		{
+			"id": "ach_Trick_Shot",
+			"name": "Trick Shot",
+			"display": "Kill a sloth with a laser ricocheted twice"
+		},
+		{
+			"id": "ach_Purgatory",
+			"name": "Purgatory",
+			"display": "Wear an appropriate hat in Hell"
+		},
+		{
+			"id": "ach_Techy",
+			"name": "Techy",
+			"display": "Wear an appropriate hat in Rad World"
+		},
+		{
+			"id": "ach_Keepin_It_Warm",
+			"name": "Keepin' It Warm",
+			"display": "Wear an appropriate hat in the Cold Wastes"
+		},
+		{
+			"id": "ach_Medeival_Times",
+			"name": "Medeival Times",
+			"display": "Wear an appropriate hat in the Highlands Castle"
+		},
+		{
+			"id": "ach_Old_Fashioned",
+			"name": "Old Fashioned",
+			"display": "Wear an appropriate hat in the Desert"
+		},
+		{
+			"id": "ach_Blue_Collar",
+			"name": "Blue Collar",
+			"display": "Wear an appropriate hat in the Factory"
+		},
+		{
+			"id": "ach_Sweet_Sweet_Sloth",
+			"name": "Sweet Sweet Sloth!",
+			"display": "Wear an appropriate hat in the Land o' Cakes"
+		},
+		{
+			"id": "ach_Mayan_Sloth",
+			"name": "Mayan Sloth",
+			"display": "Wear an appropriate hat in the Temple"
+		},
+		{
+			"id": "ach_Considerate",
+			"name": "Considerate",
+			"display": "Start a match with no meat based color, veggie only..."
+		},
+		{
+			"id": "ach_Willy_Tell_It",
+			"name": "Willy, Tell It",
+			"display": "Kill a sloth wearing a fruit hat using an arrow"
+		},
+		{
+			"id": "ach_Greenbacks_Legacy",
+			"name": "Greenback's Legacy",
+			"display": "Get a 7 sloth killing spree wearing the hockey mask"
+		},
+		{
+			"id": "ach_Hats_Off_to_You",
+			"name": "Hats off to You",
+			"display": "Access the Haberdashery"
+		},
+		{
+			"id": "ach_Cap_Of_Legend",
+			"name": "Cap of Legend",
+			"display": "Acquire a Golden Hat"
+		},
+		{
+			"id": "ach_Up_And_Coming",
+			"name": "Up and Coming",
+			"display": "Acquire 10 Golden Hats"
+		},
+		{
+			"id": "ach_Richest_Hero",
+			"name": "Richest Hero",
+			"display": "Acquire 25 Golden Hats"
+		},
+		{
+			"id": "ach_Golden_Sloth_King",
+			"name": "Golden Sloth King",
+			"display": "Acquire 50 Golden Hats"
+		}
+	],
+	"stats": [
+		{
+			"id": "stat_total_kill_sloth",
+			"display": "Total Sloth Kills"
+		},
+		{
+			"id": "stat_total_kill_harpy",
+			"display": "Total Harpy Eagles Killed"
+		},
+		{
+			"id": "stat_total_match_slice_hunt",
+			"display": "Total Slice Hunt Matches Played"
+		},
+		{
+			"id": "stat_total_match_sloth_hunt",
+			"display": "Total Sloth Hunt Matches Played"
+		},
+		{
+			"id": "stat_total_match_last_sloth_standing",
+			"display": "Total Last Sloth Standing Matches Played"
+		},
+		{
+			"id": "stat_total_match_golden_slice",
+			"display": "Total Golden Slice Matches Played"
+		},
+		{
+			"id": "stat_total_nuke_matches",
+			"display": "Matches played with Nuke enabled"
+		},
+		{
+			"id": "stat_total_team_matches",
+			"display": "Total Matches Played with Teams"
+		},
+		{
+			"id": "stat_total_online_matches",
+			"display": "Total Online Matches Played"
+		},
+		{
+			"id": "stat_total_all_matches",
+			"display": "Total Matches of all Types Played"
+		}
+	]
+}
