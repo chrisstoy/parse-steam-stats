@@ -1,0 +1,15 @@
+{
+  "name": "parse-stats",
+  "version": "1.0.0",
+  "description": "Parse Raw Steam Stats and Achievements for C#",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Stoy",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "lodash": "^4.17.4"
+  }
+}
