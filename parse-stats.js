@@ -151,7 +151,7 @@ namespace BS {
 		protected Achievement_t[] m_Achievements = new Achievement_t[] {`;
 		_.forEach(data.achievements, function (ach) {
 			def += `
-			new Achievement_t(Achievements.${ach.id}, "${ach.name}", "${ach.display}"),`;
+			new Achievement_t(Achievement.${ach.id}, "${ach.name}", "${ach.display}"),`;
 		});
 		def += `
 		};
